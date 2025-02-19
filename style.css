@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 16px;
+}
+
+body {
+    background-color: #F5F4F0;
+}
+
+#container {
+    width: 1120px;
+    margin: 88px auto 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    color: #333333;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+.title-age h1 {
+    font-weight: bold;
+}
+
+main img {
+    border-radius: 28px; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-image {
+    margin-top: 40px;
+}
+
+.main-image .image-description {
+    color: 333333;
+    text-align: center;
+    font-style: italic;
+    margin-top: 24px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color: #d9d9d9;
+}
+
+
+#content-list .title-list {
+    margin: 64px 0;
+}
+
+#content-list h2 {
+    margin-bottom: 8px;
+}
+
+.card-travel:not(:last-child) {
+    margin-bottom: 48px;
+}
+
+.card-travel .content-card {
+    margin-top: 20px;
+}
+
+.content-card h3 {
+    margin-bottom: 4px;
+}
+
+.content-card span.tags-title {
+    color: #333333;
+    font-weight: bold;
+}
+
+.tags-list {
+    margin-left: 20px;
+}
+
+.tags-list li {
+    font-weight: bold;
+}
+
+.tags-list li::marker {
+    color: #333333;
+}
+
+.blue {
+    color: #0C51A7
+}
+
+.pink {
+    color: #E5245E
+}
+
+.purple {
+    color: #591B98
+}
+
+.orange {
+    color: #E95E10
+}
+
+.msg-final {
+    text-align: center;
+}
+
+footer {
+    color: #333333;
+    text-align: center;
+    padding-bottom: 48px;
+    margin-top: 92px;
+}
+
+footer img {
+    vertical-align: middle;
+}
